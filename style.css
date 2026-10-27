@@ -1,0 +1,244 @@
+body {
+    background-color: #eaf4fb;
+    color: #263238;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 85%;
+    max-width: 820px;
+    margin: 30px auto;
+}
+
+#topo {
+    background-color: #1b3a8a;
+    padding: 35px 20px 20px 20px;
+    border-bottom: 8px solid #7fb3e6;
+    text-align: center;
+}
+
+#topo p {
+    color: #dbeafe;
+    font-style: italic;
+    margin: 10px 0 0 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #dbeafe;
+    font-size: 2.3rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 6px #0a1a4a;
+    margin: 0;
+}
+
+h2 {
+    color: #1b3a8a;
+    font-size: 1.8rem;
+    border-bottom: 3px solid #7fb3e6;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+h3 {
+    color: #2f6b3f;
+    font-size: 1.25rem;
+    border-left: 5px solid #2f6b3f;
+    padding-left: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 4px 4px;
+}
+
+nav ul li a {
+    color: #dbeafe;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-bottom: 3px solid transparent;
+}
+
+nav ul li a:hover {
+    background-color: #2b50b5;
+    border-bottom-color: #ffffff;
+}
+
+.secao {
+    background-color: #ffffff;
+    margin-bottom: 28px;
+    padding: 24px 28px;
+    border: 2px solid #bcd6f0;
+    border-left: 10px solid #1b3a8a;
+    border-radius: 12px;
+}
+
+#conservacao {
+    border-left-color: #2f6b3f;
+}
+
+.secao p {
+    text-align: justify;
+    text-indent: 1.5em;
+}
+
+.destaque {
+    font-size: 1.1rem;
+    color: #1b3a8a;
+}
+
+strong {
+    color: #1b3a8a;
+}
+
+em {
+    color: #2f6b3f;
+}
+
+figure {
+    margin: 25px auto;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #1b3a8a;
+    border-radius: 12px;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #546e7a;
+    margin-top: 8px;
+}
+
+.lista-caracteristicas {
+    list-style-image: url("imagens/marcador.svg");
+    list-style-position: outside;
+    padding-left: 32px;
+}
+
+.lista-etapas {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    padding-left: 10px;
+}
+
+.lista-simples {
+    list-style-type: square;
+    padding-left: 32px;
+}
+
+.secao li {
+    margin-bottom: 8px;
+}
+
+.ficha {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+.ficha caption {
+    font-weight: bold;
+    color: #1b3a8a;
+    margin-bottom: 8px;
+}
+
+.ficha th, .ficha td {
+    border: 1px solid #7fb3e6;
+    padding: 10px;
+    text-align: left;
+}
+
+.ficha th {
+    background-color: #1b3a8a;
+    color: #dbeafe;
+}
+
+.nota {
+    background-color: #e8f5e9;
+    margin: 20px 0;
+    padding: 15px 20px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #2f6b3f;
+    border-radius: 12px;
+}
+
+.nota h3 {
+    margin-top: 0;
+}
+
+.cartao {
+    background-color: #f1f7fd;
+    margin: 18px 0;
+    padding: 5px 20px 10px 20px;
+    border-left: 6px solid #7fb3e6;
+    border-radius: 8px;
+}
+
+a {
+    color: #1b3a8a;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2f6b3f;
+    text-decoration: none;
+}
+
+.botao-pagina {
+    display: inline-block;
+    background-color: #1b3a8a;
+    color: #ffffff;
+    text-decoration: none;
+    text-indent: 0;
+    padding: 10px 22px;
+    border: 2px solid #7fb3e6;
+    border-radius: 25px;
+}
+
+.botao-pagina:hover {
+    background-color: #7fb3e6;
+    color: #1b3a8a;
+}
+
+#rodape {
+    background-color: #1b3a8a;
+    color: #dbeafe;
+    text-align: center;
+    padding: 20px;
+    border-top: 8px solid #7fb3e6;
+}
+
+#rodape p {
+    margin: 6px 0;
+}
+
+#rodape a {
+    color: #ffffff;
+}
+
+#rodape a:hover {
+    color: #7fb3e6;
+}
